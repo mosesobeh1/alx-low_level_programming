@@ -6,7 +6,9 @@
  * Return: Always 0 (Success)
  */
 int main(void)
-{
-	printf("Hello World");
+{ 
+	printf("Hello C world");
+
     return (0);
-}
+
+}	    
