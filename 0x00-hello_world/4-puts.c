@@ -1,16 +1,13 @@
 #include <stdio.h>
-#include <string.h>
 
 int main()
 
 {
-       // string initializ 
-
- char str1 [] = "Programming is like building a multilingual puzzle";
-       // stdout char str1
+/*
+ * puts function
+ */
        
-     puts(str1);
-
+     puts("Programming is like building a multilingual puzzle,");
      return (0);
 
 }
