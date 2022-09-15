@@ -1,18 +1,16 @@
-#include <stdio.h>
+#include "main.h"
 /**
- * main - print if the number is positive, zero, or negative
+ * print_last_digit - Prints the last digit of a number.
+ * @c: The number in question 
  *
- * description: using the main function
- * this program prints "programming is positive, zero, or negative"
- * return: 0
+ * Return: Value of the 
  */
-int main(void)
-{
-char c;
-for  (c = 'z'; c >= 'a' c--)
-{
-putchar(c);
-}
-putchar('\n);
-return (0);
-}
+int print_last_digit(int n)
+{	
+	int last_digit - n % 10;
+
+	if  (last_digest < 0)
+		last_digit *= -1;
+	_putchar(last_digit + '0');
+	return (last_digit);
+}	
