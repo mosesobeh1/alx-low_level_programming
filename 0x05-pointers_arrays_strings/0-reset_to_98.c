@@ -1,12 +1,14 @@
-#include "main.h"
+#include < main.h >
+
 /**
-*reset_98 - resets the value of a variable.
-*updates the value it points to 98
-*decription: printout the required result.
-*@n: argument to the function
-*Return: return void.
+* reset_to_98 - resets the value of the variable.
+* it is pointing to to 98.
+* @n: argument to the function.
+* Description: print out the required result.
+* Return: return void.
 */
-void reset_to_98(int *n)/**reset_to_98*/
+
+void reset_to_98(int *n)
 {
-	*n = 98;
+		 *n = 98;
 }
