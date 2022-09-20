@@ -6,7 +6,6 @@
 *@n: argument to the function
 *Return: return void.
 */
-
 void reset_to_98(int *n)/**reset_to_98*/
 {
 	*n = 98;
