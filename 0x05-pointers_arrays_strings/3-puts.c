@@ -1,16 +1,14 @@
 #include "main.h"
 
 /**
-* _puts -> this is a function that puts
+* _puts -> this function prints a string to std
 * @str: a parameter to _puts function
 */
-void _puts(char *str);
+void _puts(char *str)
 {
-	int index;
-
-	for (index = 0; str[index] != '\0'; index++)
-	(
-		_putchar(*str[index]);
-	)
+	for (; *str != '\0'; str++)
+	{
+		_putchar(*str);
+	}
 	_putchar('\n');
 }
