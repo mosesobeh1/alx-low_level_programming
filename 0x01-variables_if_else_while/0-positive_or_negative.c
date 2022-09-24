@@ -1,6 +1,5 @@
 #include <stdlib.h>
 #include <time.h>
-#include <stdio.h>
 
 /**
  * main - prints if number is psitive, zero or negative
@@ -26,6 +25,6 @@ int main(void)
 	{
 		printf("%d is negative\n", n);
 	}
-		return (0);
+	return (0);
 }
 
