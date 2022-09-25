@@ -1,20 +1,10 @@
-#include "main.h"
-#include <stdio.h>
+#include "holberton.h"
 /**
- * _abs - function that computes the absolute value of an integer
- * @c: is the int that will use for the argument of the function
- * Return: 0
+ * _abs - a function that computes the absolute value of an integer
+ * @ab: integer input
+ * Return: absolute value of ab
  */
-int _abs(int c)
-
-{	
-	if ( c > 0 || c == 0 )
-	{ 
-	return (0);
-	} 
-	else 
-	return (c * -1);	
-
+int _abs(int ab)
+{
+	return (ab * ((ab > 0) - (ab < 0)));
 }
-
-
