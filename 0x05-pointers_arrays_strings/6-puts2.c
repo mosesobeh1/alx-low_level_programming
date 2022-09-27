@@ -2,7 +2,6 @@
 
 /**
  * puts2 - function prints every other character of a string
- * 
  * @str: input
  * Return: print
  */
