@@ -6,7 +6,7 @@
 */
 void print_rev(char *s)
 {
-	char *str;
+	char *str;*
 
 	str = "This is a new string";
 	print_rev(str);
